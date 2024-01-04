@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1900px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(197, 195, 195);
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  width: 100vw;
+  gap: 50px;
+  padding-left: 100px;
+}
+
+li {
+  display: inline;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  width: 190px;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  display: inline;
+  font-family: "Dancing Script";
+  width: 130px;
+}
+
+.box {
+  width: 150px;
+  height: 30px;
+  background-color: grey;
+  display: flex;
+  padding-left: 50px;
+  border-radius: 5%;
+}
+
+.search-icon {
+  display: flex;
+  position: absolute;
+  padding-left: 1600px;
+}
